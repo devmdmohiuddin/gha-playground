@@ -1,11 +1,11 @@
 name: Hello CI/CD
 
-   on:
-     push:
+on:
+  push:
 
-   jobs:
-     say-hello:
-       runs-on: ubuntu-latest
-       steps:
-         - name: Print a greeting
-           run: echo "Hello CI/CD"
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        run: echo "Hello CI/CD"
